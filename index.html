@@ -11,18 +11,18 @@
 <body>
   <div class="container">
     <header>Captcha Generator</header>
-    <div class="input-field captcha">
-      <input type="text" value="" id="capher">
-      <button>
-        <i class="fa-solid fa-arrows-rotate"></i>
+    <div class="input_field captch_box">
+      <input type="text" value="" disabled />
+      <button class="refresh_button">
+        <i class="fa-solid fa-rotate-right"></i>
       </button>
     </div>
-    <div class="input-field captcha_input">
-      <input type="text" placeholder="Enter captcha" class="capher">
+    <div class="input_field captch_input">
+      <input type="text" placeholder="Enter captcha" />
     </div>
-    <div class="answer">Entered captcha is correct.</div>
+    <div class="message">Entered captcha is correct</div>
     <div class="input_field button disabled">
-      <button class="submit">Submit Captcha</button>
+      <button>Submit Captcha</button>
     </div>
   </div>
   <script src="index.js"></script>
