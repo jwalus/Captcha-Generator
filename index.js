@@ -1,4 +1,8 @@
-// Selecting necessary DOM elements
+// const captchaTextBox1 = document.querySelector(".captch_box input");
+// const refreshButton1 = document.querySelector(".refresh_button");
+// const captchaInputBox1 = document.querySelector(".captch_input input");
+// const message1 = document.querySelector(".message");
+// const submitButton1 = document.querySelector(".button");
 const captchaTextBox = document.querySelector(".captch_box input");
 const refreshButton = document.querySelector(".refresh_button");
 const captchaInputBox = document.querySelector(".captch_input input");
